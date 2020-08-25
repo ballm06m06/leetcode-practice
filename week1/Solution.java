@@ -1,3 +1,9 @@
+/*
+Week 1 
+Qusetion: single number
+Description:
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+*/
 import java.util.Arrays;
 
 class Solution {
