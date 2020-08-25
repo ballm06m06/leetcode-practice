@@ -1,0 +1,4 @@
+# 檔案名稱 .gitignore
+
+# 忽略所有 .class 檔案
+*.class
