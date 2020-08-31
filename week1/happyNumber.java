@@ -18,7 +18,11 @@ class happyNumber{
          * n != 1 means it's not a happy number
         */
         while(n != 1){ 
-            /*why should we return false??? */
+            /*
+             *  why should we return false??? 
+             *  Because we have to consider the number might loop endlessly in a cycle,
+             *  So if this number is already in Hashset, it means we got a loop.
+            */
             if(hashSet.contains(n)){
                 return false;
             }
