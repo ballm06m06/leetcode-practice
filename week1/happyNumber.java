@@ -18,7 +18,7 @@ class happyNumber{
          * n != 1 means it's not a happy number
         */
         while(n != 1){ 
-            /*why should we return flase??? */
+            /*why should we return fase??? */
             if(hashSet.contains(n)){
                 return false;
             }
