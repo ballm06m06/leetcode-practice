@@ -7,7 +7,7 @@
 
 import java.util.HashMap;
 
-class Solution_1{
+class singleNumber_using_hashmap{
     public int findSingleNumber(int[] nums){
         HashMap<Integer, Integer> hashTable = new HashMap<Integer, Integer>();
 
@@ -32,7 +32,7 @@ class Solution_1{
 
     public static void main(String[] args){
         int[] list = {1,2,2,4,4,1,5};
-        Solution_1 s = new Solution_1();
+        singleNumber_using_hashmap s = new singleNumber_using_hashmap();
         System.out.println(s.findSingleNumber(list));
     }
 }

@@ -10,7 +10,7 @@
 
 import java.util.HashSet;
 
-class Solution1{
+class happyNumber{
     public boolean isHappy(int n){
         HashSet<Integer> hashSet = new HashSet<Integer>();
         
