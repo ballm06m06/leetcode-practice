@@ -7,7 +7,7 @@
 
 import java.util.Arrays;
 
-class singleNumber {
+class SingleNumber {
     public int singleNumber(int[] nums) {          
         Arrays.sort(nums);
         int theOne = -100;
@@ -28,7 +28,7 @@ class singleNumber {
 
     public static void main(String[] args){
         int[] intArray = new int[]{1,1,2,2,4};
-        singleNumber s = new singleNumber();
-        System.out.println(s.singleNumber(intArray));
+        SingleNumber s = new SingleNumber();
+        System.out.println(s.SingleNumber(intArray));
     } 
 }
