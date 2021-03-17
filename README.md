@@ -4,6 +4,6 @@
 This is a place I solve leetcode problems on my own. 
 Hope I could solve 100 problems ASAP!  
 
-18/1755 Solved - Easy 17, Medium 1, Hard 0
+52/1793 Solved - Easy 38, Medium 14, Hard 0
 
 “You always pass failure on the way to success.”
